@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "fa503b104f700e4337a4bf209a56bc8a",
+    "content-hash": "a30db74788ca20fcd59d4f40186f0101",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -1415,6 +1415,73 @@
                 "uuid"
             ],
             "time": "2018-07-19T23:38:55+00:00"
+        },
+        {
+            "name": "rennokki/befriended",
+            "version": "1.4.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/rennokki/befriended.git",
+                "reference": "cffbfb5818914a4b6ed830890d017de06d57af51"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/rennokki/befriended/zipball/cffbfb5818914a4b6ed830890d017de06d57af51",
+                "reference": "cffbfb5818914a4b6ed830890d017de06d57af51",
+                "shasum": ""
+            },
+            "require": {
+                "laravel/framework": "~5.5|~6.0"
+            },
+            "require-dev": {
+                "orchestra/database": "~3.5.0|~3.6.0|~4.0.0",
+                "orchestra/testbench": "~3.5.0|~3.6.0|~4.0.0",
+                "phpunit/phpunit": "^6.2|^7.0|^8.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Rennokki\\Befriended\\BefriendedServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Rennokki\\Befriended\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Alex Renoki",
+                    "email": "rennokki@gmail.com",
+                    "homepage": "https://twitter.com/rennokki",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Eloquent Befriended brings social media-like features like following, blocking and filtering content based on following or blocked models.",
+            "homepage": "https://github.com/rennokki/befriended",
+            "keywords": [
+                "Connection",
+                "Followers",
+                "block",
+                "blocker",
+                "blocking",
+                "connections",
+                "eloquent",
+                "friend",
+                "friends",
+                "laravel",
+                "link",
+                "media",
+                "model",
+                "social"
+            ],
+            "time": "2019-09-06T16:01:09+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -3277,6 +3344,63 @@
                 "test"
             ],
             "time": "2016-01-20T08:20:44+00:00"
+        },
+        {
+            "name": "laravel/ui",
+            "version": "v1.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravel/ui.git",
+                "reference": "57e2361b55ed1bc80ff0b3258b9713626fb38a2b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laravel/ui/zipball/57e2361b55ed1bc80ff0b3258b9713626fb38a2b",
+                "reference": "57e2361b55ed1bc80ff0b3258b9713626fb38a2b",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/console": "~5.8|^6.0",
+                "illuminate/filesystem": "~5.8|^6.0",
+                "illuminate/support": "~5.8|^6.0",
+                "php": "^7.1.3"
+            },
+            "require-dev": {
+                "mockery/mockery": "^1.0",
+                "phpunit/phpunit": "^8.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.x-dev"
+                },
+                "laravel": {
+                    "providers": [
+                        "Laravel\\Ui\\UiServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Laravel\\Ui\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Taylor Otwell",
+                    "email": "taylor@laravel.com"
+                }
+            ],
+            "description": "Laravel UI utilities and presets.",
+            "keywords": [
+                "laravel",
+                "ui"
+            ],
+            "time": "2019-10-11T12:16:52+00:00"
         },
         {
             "name": "mockery/mockery",
